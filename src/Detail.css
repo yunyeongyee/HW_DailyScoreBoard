@@ -1,0 +1,65 @@
+/*DETAIL*/
+.DetailSection {
+    justify-items: center;
+    align-content: center;
+    width: 360px;
+    height: 200px;
+    background-color: #fff;
+    padding: 16px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+
+.DetailSection h1 {
+    font-size : calc(17px + 0.8vw);
+}
+
+.Circles {
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.Circle {
+    display: inline-flex;
+    bottom:-10px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+button {
+    top: 25px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px 16px;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: #fff;
+    background: #ea4c89;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+button:hover {
+  background: #ea4c89;
+  filter: grayscale(0.25);
+  transition: all 0.75s;
+}

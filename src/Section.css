@@ -1,0 +1,113 @@
+/*SECTION*/
+section {
+    width: 350px;
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+section h1 {
+    font-size : calc(17px + 0.8vw);
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-items: center;
+    align-content: center;
+    right: 25px;
+}
+
+.Day {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 1px auto;
+    font-size : 17px;
+    font-weight: 600;
+}
+
+.Circle {
+    margin:1px 3px;
+    position: relative;
+    bottom: 32px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #eee;
+    cursor: pointer;
+    justify-items: center;
+    align-content: center;
+}
+
+
+.Triangle{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 0;
+    height: 0;
+    margin-left: 20px;
+    left: 220px;
+    bottom: 30px;
+    border-bottom: 18px solid transparent;
+    border-top: 18px solid transparent;
+    border-left: 33px solid skyblue;
+    border-right: 33px solid transparent;
+    cursor: pointer;
+    justify-items: center;
+    align-content: center;
+}
+
+.AvgBox {
+    position:relative;
+    bottom: 5px;    
+}
+
+.AvgBox h3 {
+    font-size : calc(14px + 0.4vw);
+    font-weight: 600;
+}
+
+button {
+    position: relative;
+    padding: 3px 3px;
+    height: 40px;
+    margin-bottom: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: #fff;
+    background: #ea4c89;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+button:hover {
+  filter: grayscale(0.25);
+  transition: all 0.75s;
+}
+
+/*__________________________________________________
+
+.test {
+    position:relative;
+    자기 위치에서 움직이겠다.
+    위치 옮길 때는 left right top bottom 사용하면 됨.
+}
+ ____________________________________________________*/
