@@ -1,4 +1,4 @@
-#  🎇🎇VOCABULARY NOTE🎇🎇
+#  VOCABULARY NOTE
 
 
 ![1](https://user-images.githubusercontent.com/105087260/171585002-3f455056-ba89-4564-9594-2c4b545f0504.jpg)
